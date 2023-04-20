@@ -195,14 +195,14 @@ a{
 /*impostazioni quinta sezione trova un partner*/
 
 .container-partner-contact{
-    height: 400px;
+    height: 500px;
     max-width: 1300px;
     background-color: rgb(151, 151, 145);;
     margin: 0 auto;
 }
 
 .row-partner-contact{
-    height: 400px;
+    height: 500px;
     max-width: 55%;
     background-color: brown;
     margin: 0 auto;
@@ -224,4 +224,25 @@ a{
     height: 100%; 
 }
 
+/*impostazioni sesta sezione titolo operazioni di business*/
 
+.container-title-operation{
+    height: 100px;
+    max-width: 1300px;
+    background-color: yellow;
+    margin: 0 auto;
+}
+
+.row-title-operation{
+    height: 100px;
+    max-width: 55%;
+    background-color: brown;
+    margin: 0 auto;
+}
+
+.col-title-operation{
+    background-color: aqua;
+    border: 1px dashed black;
+    width: 100%;
+    height: 100px; 
+}
