@@ -53,3 +53,48 @@ a{
     text-decoration: none;
     display: inline-block;
 }
+
+.col-link-right, .col-button-start{
+    text-align: right;
+}
+
+/*impostazioni prima sezione main - jumbodrone*/
+
+.container-jumbodrone{
+    background-color: rgb(103, 77, 182);
+    max-width: 1300px;
+    height: 500px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.container-jumbodrone-down{
+    height: 100px;
+    max-width: 1300px;
+    background-color: yellow;
+    margin: 0 auto;
+}
+
+.row-jumbodrone{
+    background-color: brown;
+    height: 120%;
+    width: 850px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.col40-jumbodrone{
+    background-color: aqua;
+    border: 1px dashed black;
+    width: 60%;
+    height: 100%; 
+}
+
+.col60-jumbodrone{
+    background-color: rgb(254, 177, 255);
+    border: 1px dashed black;
+    width: 40%;
+    height: 100%; 
+}
