@@ -8,9 +8,12 @@
 
 /*impostazioni header e nav*/
 
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
 .container{
     margin: auto;
-    background-color: red;
     max-width: 1300px;
     height: 60px;
     display: flex;
@@ -117,7 +120,8 @@ a{
 }
 
 .title{
-    font-size: 60px;
+    font-size: 55px;
+    font-weight: 800;
 }
 
 /*impostazioni seconda sezione sotto-titolo e bottoni di fatturazione*/
