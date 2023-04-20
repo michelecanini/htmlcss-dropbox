@@ -16,10 +16,24 @@
     display: flex;
 }
 
-.menu-header{
+.row-menu-header{
     background-color:darkorange;
     height: 25px;
     width: 1300px;
     margin: auto;
     align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-logo, .col-button-start{
+    border: 1px dashed black;
+    width: 10%;
+    height: 100%
+}
+
+.col-link-left, .col-link-right{
+    border: 1px dashed black;
+    width: 40%;
+    height: 100%
 }
