@@ -35,13 +35,13 @@ body{
 }
 
 .col-button-start{
-    width: 5%;
+    width: 6%;
     align-items: center;
     position: relative;
 }
 
 .col-link-left, .col-link-right{
-    width: 45%;
+    width: 44%;
     position: relative;
 }
 
@@ -95,20 +95,23 @@ a{
     color: white;
     background-color: #0061ff;
     padding: 5px 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /*impostazioni prima sezione main - jumbodrone*/
 
 .container-jumbodrone{
-    background-color: rgb(103, 77, 182);
+    background-color: #b4d0e7;
     max-width: 1300px;
-    height: 300px;
+    height: 320px;
     display: flex;
     margin: 0 auto;
 }
 
 .row-jumbodrone{
-    background-color: brown;
     height: 120%;
     width: 850px;
     margin: auto;
@@ -117,18 +120,39 @@ a{
     justify-content: space-around;
 }
 
-.col40-jumbodrone{
-    background-color: aqua;
-    border: 1px dashed black;
-    width: 40%;
+.col30-jumbodrone{
+    width: 30%;
     height: 80%; 
 }
 
-.col60-jumbodrone{
-    background-color: rgb(254, 177, 255);
-    border: 1px dashed black;
-    width: 60%;
+.col70-jumbodrone{
+    width: 70%;
     height: 80%; 
+}
+
+.col30-jumbodrone p{
+    font-size: 12px;
+}
+
+.image-jumbo{
+    width: 100%;
+}
+
+.item-start-free{
+    font-size: 12px;
+    color: white;
+    background-color: #0061ff;
+    padding: 5px 10px;
+    margin-top: 20px;
+}
+
+.item-cancel{
+    margin-top: 20px;
+}
+
+.arrow-down{
+    font-size: 30px;
+    margin-top: 45px;
 }
 
 /*impostazioni prima sezione jumbodrone-up titolo*/
@@ -165,7 +189,6 @@ a{
 .container-central{
     height: 200px;
     max-width: 1300px;
-    background-color: yellow;
     margin: 0 auto;
 }
 
