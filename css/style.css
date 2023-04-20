@@ -321,3 +321,35 @@ a{
     height: 450px;
     display: inline-block;
 }
+
+/*impostazione decima sezione prova gratuita*/ 
+
+.container-free-trial{
+    height: 200px;
+    max-width: 1300px;
+    background-color: rgb(151, 151, 145);;
+    margin: 0 auto;
+}
+
+.row-free-trial{
+    height: 200px;
+    max-width: 55%;
+    background-color: brown;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.col60-free-trial{
+    background-color: aqua;
+    border: 1px dashed black;
+    width: 60%;
+    height: 100%; 
+}
+
+.col40-free-trial{
+    background-color: rgb(254, 177, 255);
+    border: 1px dashed black;
+    width: 40%;
+    height: 100%; 
+}
