@@ -20,8 +20,7 @@ body{
 }
 
 .row-menu-header{
-    background-color:darkorange;
-    height: 25px;
+    height: 20px;
     width: 1300px;
     margin: auto;
     align-items: center;
@@ -29,16 +28,27 @@ body{
     justify-content: space-between;
 }
 
-.col-logo, .col-button-start{
+.col-logo{
     border: 1px dashed black;
     width: 10%;
     height: 100%
 }
 
+.col-button-start{
+    border: 1px dashed black;
+    width: 5%;
+    height: 100%
+}
+
 .col-link-left, .col-link-right{
     border: 1px dashed black;
-    width: 40%;
+    width: 45%;
     height: 100%
+}
+
+.col-logo img{
+    width: 90px;
+    
 }
 
 /*impostazioni logo, link e lista*/
@@ -59,6 +69,11 @@ a{
 
 .col-link-right, .col-button-start{
     text-align: right;
+}
+
+.item-nav-link{
+    font-size: 12px;
+    color: black;
 }
 
 /*impostazioni prima sezione main - jumbodrone*/
@@ -100,12 +115,11 @@ a{
 .container-jumbodrone-up{
     height: 200px;
     max-width: 1300px;
-    background-color: yellow;
+    background-color: #b4d0e7;
     margin: 0 auto;
 }
 
 .row-jumbodrone-up{
-    background-color: rgb(42, 165, 153);
     height: 100%;
     width: 850px;
     margin: auto;
@@ -113,15 +127,16 @@ a{
 }
 
 .col100-jumbodrone{
-    background-color: aqua;
-    border: 1px dashed black;
     width: 100%;
     height: 100%; 
+    position: relative;
 }
 
 .title{
     font-size: 55px;
     font-weight: 800;
+    position: absolute;
+    top: 50px;
 }
 
 /*impostazioni seconda sezione sotto-titolo e bottoni di fatturazione*/
