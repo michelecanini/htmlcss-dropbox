@@ -68,13 +68,6 @@ a{
     margin: 0 auto;
 }
 
-.container-jumbodrone-down{
-    height: 100px;
-    max-width: 1300px;
-    background-color: yellow;
-    margin: 0 auto;
-}
-
 .row-jumbodrone{
     background-color: brown;
     height: 120%;
@@ -125,4 +118,54 @@ a{
 
 .title{
     font-size: 60px;
+}
+
+/*impostazioni sezione sotto-titolo e bottoni di fatturazione*/
+
+.container-central{
+    height: 200px;
+    max-width: 1300px;
+    background-color: yellow;
+    margin: 0 auto;
+}
+
+.row-container-central{
+    height: 200px;
+    max-width: 55%;
+    background-color: brown;
+    margin: 0 auto;
+}
+
+.col-button-price{
+    background-color: aqua;
+    border: 1px dashed black;
+    width: 100%;
+    height: 200px; 
+}
+
+/*impostazioni sezione piani di business*/
+
+.container-plan-business{
+    height: 700px;
+    max-width: 1300px;
+    background-color: yellow;
+    margin: 0 auto;
+}
+
+.row-plan-business{
+    height: 700px;
+    max-width: 55%;
+    background-color: brown;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col33-plan-business{
+    background-color: aqua;
+    border: 1px dashed black;
+    width: calc(100% / 3 - 20px);
+    height: 700px;
+    display: inline-block;
+
 }
