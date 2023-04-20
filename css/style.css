@@ -29,26 +29,28 @@ body{
 }
 
 .col-logo{
-    border: 1px dashed black;
     width: 10%;
-    height: 100%
+    height: 100%;
+    position: relative;
 }
 
 .col-button-start{
-    border: 1px dashed black;
     width: 5%;
-    height: 100%
+    align-items: center;
+    position: relative;
 }
 
 .col-link-left, .col-link-right{
-    border: 1px dashed black;
     width: 45%;
-    height: 100%
+    position: relative;
 }
 
-.col-logo img{
+.col-logo > img{
     width: 90px;
-    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /*impostazioni logo, link e lista*/
@@ -71,9 +73,28 @@ a{
     text-align: right;
 }
 
-.item-nav-link{
+.item-nav-link-left, .item-nav-link-right{
     font-size: 12px;
     color: black;
+}
+
+.item-nav-link-left{
+    height: 100%;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.item-nav-link-right{
+    height: 100%;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.item-nav-start{
+    font-size: 12px;
+    color: white;
+    background-color: #0061ff;
+    padding: 5px 10px;
 }
 
 /*impostazioni prima sezione main - jumbodrone*/
