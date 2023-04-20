@@ -37,3 +37,19 @@
     width: 40%;
     height: 100%
 }
+
+/*impostazioni logo, link e lista*/
+
+ul{
+    list-style-type: none;
+
+}
+
+ul li{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
