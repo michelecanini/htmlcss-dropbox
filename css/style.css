@@ -377,13 +377,11 @@ a{
 /*impostazioni settima sezione operazioni speciali con piano business*/
 
 .container-operation-business{
-    height: 700px;
     max-width: 1300px;
     margin: 0 auto;
 }
 
 .row-operation-business{
-    height: 700px;
     max-width: 55%;
     margin: 0 auto;
     display: flex;
@@ -391,9 +389,7 @@ a{
 }
 
 .col33-operation-business{
-    border: 1px dashed black;
     width: calc(100% / 3 - 20px);
-    height: 700px;
     display: inline-block;
 }
 
