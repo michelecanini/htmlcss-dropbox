@@ -446,10 +446,10 @@ a{
 }
 
 .col33-container-partner{
-    border: 1px dashed black;
     width: calc(100vw / 3);
     height: 450px;
     display: inline-block;
+    background-color: #e4e3e3;
 }
 
 .row50-container-partner{
@@ -464,7 +464,24 @@ a{
     height: 50%;
     flex-wrap: wrap;
     border: 1px solid #e8140d;
-    
+    position: relative;
+}
+
+.width70{
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.designit-width{
+    width: 50%;
+    margin: 30px;
+}
+
+.designit-sub-title{
+    padding: 30px;
 }
 
 /*impostazione decima sezione prova gratuita*/ 
