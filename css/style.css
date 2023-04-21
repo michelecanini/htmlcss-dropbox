@@ -398,19 +398,16 @@ a{
 .container-discover-button{
     height: 300px;
     max-width: 1300px;
-    background-color: yellow;
     margin: 0 auto;
 }
 
 .row-discover-button{
     height: 300px;
     max-width: 55%;
-    background-color: brown;
     margin: 0 auto;
 }
 
 .col-discover-button{
-    background-color: aqua;
     border: 1px dashed black;
     width: 100%;
     height: 300px; 
@@ -421,25 +418,34 @@ a{
 .container-container-partner{
     height: 450px;
     max-width: 1300px;
-    background-color: rgb(151, 151, 145);
     margin: 0 auto;
 }
 
 .row-container-partner{
     height: 450px;
     max-width: 100%;
-    background-color: brown;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
 
 .col33-container-partner{
-    background-color: rgb(230, 0, 255);
     border: 1px dashed black;
     width: calc(100% / 3);
     height: 450px;
     display: inline-block;
+}
+
+.row50-container-partner{
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.col50-container-partner{
+    width: 50%;
+    height: 50%;
+    flex-wrap: wrap;
+    border: 1px solid #e8140d;
 }
 
 /*impostazione decima sezione prova gratuita*/ 
