@@ -354,22 +354,24 @@ a{
 .container-title-operation{
     height: 100px;
     max-width: 1300px;
-    background-color: yellow;
     margin: 0 auto;
 }
 
 .row-title-operation{
     height: 100px;
     max-width: 55%;
-    background-color: brown;
     margin: 0 auto;
 }
 
 .col-title-operation{
-    background-color: aqua;
-    border: 1px dashed black;
     width: 100%;
     height: 100px; 
+}
+
+.title-operation{
+    font-size: 27px;
+    font-weight: 600;
+    position:absolute
 }
 
 /*impostazioni settima sezione operazioni speciali con piano business*/
@@ -377,21 +379,18 @@ a{
 .container-operation-business{
     height: 700px;
     max-width: 1300px;
-    background-color: rgb(151, 151, 145);
     margin: 0 auto;
 }
 
 .row-operation-business{
     height: 700px;
     max-width: 55%;
-    background-color: brown;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
 
 .col33-operation-business{
-    background-color: aqua;
     border: 1px dashed black;
     width: calc(100% / 3 - 20px);
     height: 700px;
