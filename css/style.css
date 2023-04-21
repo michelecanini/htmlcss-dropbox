@@ -187,7 +187,7 @@ a{
 /*impostazioni seconda sezione sotto-titolo e bottoni di fatturazione*/
 
 .container-central{
-    height: 200px;
+    height: 220px;
     max-width: 1300px;
     margin: 0 auto;
 }
@@ -195,15 +195,29 @@ a{
 .row-container-central{
     height: 200px;
     max-width: 55%;
-    background-color: brown;
     margin: 0 auto;
 }
 
 .col-button-price{
-    background-color: aqua;
-    border: 1px dashed black;
     width: 100%;
     height: 200px; 
+    position: relative;
+}
+
+.title-button-price{
+    font-size: 27px;
+    font-weight: 600;
+    top: 90px;
+    position:absolute
+}
+
+.check-button{
+    position: relative;
+    display: inline-block;
+    margin-right: 40px;
+    cursor: pointer;
+    font-size: 10px;
+    top: 170px;
 }
 
 /*impostazioni terza sezione piani di business*/
