@@ -565,21 +565,43 @@ a{
 /*impostazione undicesima sezione domande frequenti*/ 
 
 .container-questions{
-    height: 500px;
+    height: 430px;
     max-width: 1300px;
     margin: 0 auto;
 }
 
 .row-questions{
-    height: 500px;
+    height: 430px;
     max-width: 55%;
     margin: 0 auto;
 }
 
 .col-questions{
-    border: 1px dashed black;
     width: 100%;
-    height: 500px; 
+    height: 430px; 
+}
+
+.title-operation-questions{
+    font-size: 27px;
+    font-weight: 600;
+    margin-top: 90px;
+    width: 700px;
+    height: 80px;
+    border-bottom: 1px solid gray;
+}
+
+.title-operation-questions2{
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 30px;
+    width: 700px;
+    height: 50px;
+    border-bottom: 1px solid gray;
+}
+
+.title-operation-questions2::after{
+    content:"\22CE";
+    float:right
 }
 
 /*impostazioni dodicesima sezione footer*/
@@ -621,6 +643,12 @@ a{
     color: white;
     padding-right: 25px;
     font-size: 20px;
+}
+
+.list-footer{
+    margin-top: 10px;
+    color: white;
+    font-size: 10px;
 }
 
 /*impostazioni navigatore del footer*/
