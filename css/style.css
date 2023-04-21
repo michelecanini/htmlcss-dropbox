@@ -463,7 +463,6 @@ a{
     width: 50%;
     height: 50%;
     flex-wrap: wrap;
-    border: 1px solid #e8140d;
     position: relative;
 }
 
@@ -488,14 +487,37 @@ a{
     filter: brightness(0) saturate(100%) invert(99%) sepia(0%) saturate(7496%) hue-rotate(103deg) brightness(107%) contrast(101%);
 }
 
+.partner-one{
+    background-color: #a2d39b;
+}
+
+.partner-two{
+    background-color: #61082b;
+}
+
+.partner-three{
+    background-color: #0093ce;
+}
+
+.partner-four{
+    background-color: #ff1c1c;
+}
+
+.partner-five{
+    background-color: #d5001f;
+}
+
 .partner-six{
     background-color: #b4d0e7;
 }
+
+.partner-seven{
+    background-color: #0d2481;
+}
+
 .partner-eigth{
     background-color: #ffd830;
 }
-
-
 
 /*impostazione decima sezione prova gratuita*/ 
 
@@ -522,6 +544,22 @@ a{
 .col40-free-trial{
     width: 40%;
     height: 100%; 
+}
+
+.title-operation3{
+    font-size: 27px;
+    font-weight: 600;
+    position:absolute;
+    margin-top: 60px;
+    color: #61082b;
+}
+
+.item-start-free2{
+    font-size: 12px;
+    color: black;
+    background-color: white;
+    padding: 5px 10px;
+    margin-top: 70px;
 }
 
 /*impostazione undicesima sezione domande frequenti*/ 
