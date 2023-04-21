@@ -136,8 +136,19 @@ ul{
     font-size: 12px;
     color: white;
     background-color: #0061ff;
-    padding: 5px 10px;
-    margin-top: 20px;
+    padding: 5px 10px; 
+}
+
+.item-start-free3{
+    font-size: 12px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px 10px; 
+}
+
+.bottom25{
+    margin-bottom: 25px;
 }
 
 .item-cancel{
