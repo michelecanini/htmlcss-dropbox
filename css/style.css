@@ -6,11 +6,12 @@
     box-sizing: border-box;
 }
 
-/*impostazioni header e nav*/
-
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+/*impostazioni header e nav*/
+
 
 .container{
     margin: auto;
