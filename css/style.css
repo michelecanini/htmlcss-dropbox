@@ -241,7 +241,6 @@ ul{
 /*impostazioni terza sezione piani di business*/
 
 .container-plan-business{
-    height: 700px;
     max-width: 1300px;
     margin: 0 auto;
 }
@@ -255,14 +254,14 @@ ul{
 }
 
 .col33-plan-business{
-    border: 1px solid grey;
+    border: 1px solid #d7d7da;
     width: calc(100% / 3 - 20px);
     height: 700px;
     display: inline-block;
 }
 
 .header-icon{
-    border-bottom: 1px solid #999;
+    border-bottom: 1px solid #d7d7da;
     height: 30px;
     text-align: center;
     line-height: 30px;
@@ -333,7 +332,7 @@ ul{
 }
 
 .item-oppure{
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #d7d7da;
     height: 50px;
     width: 45px;
     display: inline-block;
@@ -353,7 +352,6 @@ ul{
 /*impostazioni quarta sezione piano per le aziende*/
 
 .container-team-enterprice{
-    height: 300px;
     max-width: 1300px;
     margin: 0 auto;
 }
@@ -367,13 +365,12 @@ ul{
 .col-team-enterprice{
     width: 100%;
     margin-top: 30px;
-    border: 1px solid #999;
+    border: 1px solid #d7d7da;
 }
 
 /*impostazioni quinta sezione trova un partner*/
 
 .container-partner-contact{
-    height: 500px;
     max-width: 1300px;
     margin: 0 auto;
 }
@@ -454,13 +451,11 @@ ul{
 /*impostazione ottava sezione bottone scopri di più*/    
 
 .container-discover-button{
-    height: 300px;
     max-width: 1300px;
     margin: 0 auto;
 }
 
 .row-discover-button{
-    height: 300px;
     max-width: 55%;
     margin: 0 auto;
 }
@@ -513,8 +508,8 @@ ul{
     position: relative;
 }
 
-.width70{
-    width: 70%;
+.width50{
+    width: 50%;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -536,6 +531,7 @@ ul{
 
 .partner-one{
     background-color: #a2d39b;
+    border: 12px solid #d1e9cd;
 }
 
 .partner-two{
@@ -645,11 +641,7 @@ ul{
     width: 700px;
     height: 50px;
     border-bottom: 1px solid gray;
-}
-
-.title-operation-questions2::after{
-    content:"\22CE";
-    float:right
+    position: relative;
 }
 
 /*impostazioni dodicesima sezione footer*/
@@ -732,5 +724,20 @@ ul{
 }
 
 .title-ita::after{
-    content:"\25b2";
+    content:"\23F6";
 }
+
+.arrow{
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    right: 0px;
+    position: absolute;
+  }
+
+  .solutions3{
+    font-size: 11px;
+  }
