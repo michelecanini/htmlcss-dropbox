@@ -176,6 +176,7 @@ ul{
     color: white;
     background-color: #0061ff;
     padding: 5px 10px; 
+    text-align: center;
 }
 
 .item-start-free3{
@@ -259,16 +260,17 @@ ul{
 }
 
 .header-icon{
-    border-bottom: 2px solid #999;
-    height: 35px;
+    border-bottom: 1px solid #999;
+    height: 30px;
     text-align: center;
-    line-height: 35px;
+    line-height: 30px;
     font-weight: 500;
     font-size: 11px;
 }
 
 .header-icon-two{
-    padding: 25px;
+    padding: 20px;
+    position: relative;
 }
 
 .price{
@@ -301,29 +303,45 @@ ul{
 
 .solutions2{
     font-size: 11px;
-    margin-bottom: 10px;
     margin-top: 20px;
+    
 }
 
 .text-white-button{
     color: white;
+    font-size: 11px;
 }
 
 .text-button-enterprice{
     color: white;
-    padding: 8px 12px;
-    margin-top: -50px;
-    margin-left: 500px;
+    padding: 8px 25px;
     font-size: 11px;
     background-color: #0061ff;
+    text-align: center;
+    float: right;
+    position: absolute;
+    right: 20px;
+    top: 20px;
 }
 
 .item-oppure{
-        border-bottom: 1px solid grey;
-        height: 50px;
-        width: 45px;
-        display: inline-block;
+    border-bottom: 1px solid grey;
+    height: 50px;
+    width: 45px;
+    display: inline-block;
 }
+
+.item-punti-salienti{
+    margin-top: 35px;
+}
+
+.ufficio-vendite-enterprice{
+    font-weight: bold;
+    font-size: 11px;
+    margin-bottom: 35px;
+    margin-top: 10px;
+}
+
 
 /*impostazioni quarta sezione piano per le aziende*/
 
