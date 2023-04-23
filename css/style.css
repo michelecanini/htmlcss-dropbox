@@ -10,8 +10,21 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-/*impostazioni header e nav*/
+/*utility class*/
 
+.inline-block{
+    display: inline-block;
+}
+
+.image-width100{
+    width: 100%;
+}
+
+.text-decoration-none{
+    text-decoration: none;
+}
+
+/*impostazioni header e nav*/
 
 .container{
     margin: auto;
@@ -46,6 +59,8 @@ body{
     position: relative;
 }
 
+/*impostazioni logo, link e lista*/
+
 .col-logo > img{
     width: 90px;
     position: absolute;
@@ -54,14 +69,8 @@ body{
     transform: translate(-50%, -50%);
 }
 
-/*impostazioni logo, link e lista*/
-
 ul{
     list-style-type: none;
-}
-
-.inline-block{
-    display: inline-block;
 }
 
 .col-link-right, .col-button-start{
@@ -94,6 +103,35 @@ ul{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+
+/*impostazioni sezione titolo jumbodrone-title*/
+
+.container-jumbodrone-title{
+    height: 200px;
+    max-width: 1300px;
+    background-color: #b4d0e7;
+    margin: 0 auto;
+}
+
+.row-jumbodrone-title{
+    height: 100%;
+    width: 850px;
+    margin: auto;
+    align-items: center;
+}
+
+.col100-jumbodrone-title{
+    width: 100%;
+    height: 100%; 
+    position: relative;
+}
+
+.title{
+    font-size: 55px;
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
 }
 
 /*impostazioni prima sezione main - jumbodrone*/
@@ -129,10 +167,6 @@ ul{
     font-size: 12px;
 }
 
-.image-jumbo{
-    width: 100%;
-}
-
 .item-start-free{
     font-size: 12px;
     color: white;
@@ -159,35 +193,6 @@ ul{
 .arrow-down{
     font-size: 30px;
     margin-top: 45px;
-}
-
-/*impostazioni prima sezione jumbodrone-up titolo*/
-
-.container-jumbodrone-up{
-    height: 200px;
-    max-width: 1300px;
-    background-color: #b4d0e7;
-    margin: 0 auto;
-}
-
-.row-jumbodrone-up{
-    height: 100%;
-    width: 850px;
-    margin: auto;
-    align-items: center;
-}
-
-.col100-jumbodrone{
-    width: 100%;
-    height: 100%; 
-    position: relative;
-}
-
-.title{
-    font-size: 55px;
-    font-weight: 800;
-    position: absolute;
-    top: 50px;
 }
 
 /*impostazioni seconda sezione sotto-titolo e bottoni di fatturazione*/
@@ -426,15 +431,10 @@ ul{
     position: relative;
 }
 
-.text-decoration-none{
-    text-decoration: none;
-}
-
 .button-scopri{
     top: 180px;
     position: absolute;
 }
-
 
 /*impostazione nona sezione aziende partner di dropbox*/    
 
