@@ -185,6 +185,8 @@ ul{
     background-color: white;
     border: 1px solid black;
     padding: 5px 10px; 
+    position: absolute;
+    top: 230px
 }
 
 .bottom25{
@@ -273,6 +275,12 @@ ul{
     position: relative;
 }
 
+.header-icon-three{
+    padding: 40px;
+    position: relative;
+}
+
+
 .price{
     font-weight: bold;
     font-size: 11px;
@@ -341,7 +349,6 @@ ul{
     margin-bottom: 35px;
     margin-top: 10px;
 }
-
 
 /*impostazioni quarta sezione piano per le aziende*/
 
@@ -438,6 +445,10 @@ ul{
 .col33-operation-business{
     width: calc(100% / 3 - 20px);
     display: inline-block;
+}
+
+.image-margintop30{
+    margin-top: 30px;
 }
 
 /*impostazione ottava sezione bottone scopri di più*/    
